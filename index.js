@@ -6,4 +6,4 @@ var randomDiceImage = "dice" + randomNumber1 + ".png";
 
 var image1 = document.querySelector("img1")[0];
 
-image1.setAttribute("src"; "randomDiceImage");
+image1.setAttribute("src", "randomDiceImage");
