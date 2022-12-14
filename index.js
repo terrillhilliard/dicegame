@@ -18,3 +18,14 @@ var image2 = document.querySelectorAll("img")[1];
 
 image2.setAttribute("src", randomImageSource2)
 
+
+if (randomNumber1 > randomNumber2) {
+  document.querySelector("h1").innerHTML = "Player 1 Wins!"
+}
+if (randomNumber1 === randomNumber2) {
+  document.querySelector("h1").innerHTML = "It's a tie, roll again!"
+}
+if (randomNumber1 < randomNumber2) {
+  document.querySelector("h1").innerHTML = "Player 2 Wins!"
+}
+
